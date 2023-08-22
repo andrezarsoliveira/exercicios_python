@@ -8,12 +8,12 @@ preco_maior_mor = morango_kg * 2.20
 preco_menor_mac = maca_kg * 1.80
 preco_maior_mac = maca_kg * 1.50
 #CÁLCULO DO MORANGO
-if morango >= 5:
+if morango_kg >= 5:
     preco_total_mor = preco_menor_mor
 else:
     preco_total_mor = preco_maior_mor
 #CÁLCULO DA MAÇÃ
-if maca >= 5:
+if maca_kg >= 5:
     preco_total_mac = preco_menor_mac
 else:
     preco_total_mac = preco_maior_mac
